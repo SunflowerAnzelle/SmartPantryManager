@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#E8F3F1">
+    android:background="@color/pantry_background">
 
     <!-- Pantry content -->
     <LinearLayout
@@ -22,7 +22,7 @@
             android:text="My Pantry"
             android:textSize="26sp"
             android:textStyle="bold"
-            android:textColor="#263A29"
+            android:textColor="@color/pantry_primary"
             android:gravity="center"
             android:paddingBottom="12dp" />
 
@@ -51,7 +51,7 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#FFFFFF"
+        android:background="@color/white"
         android:elevation="8dp">
 
         <Button
@@ -84,4 +84,5 @@
     </LinearLayout>
 
 </LinearLayout>
+
 

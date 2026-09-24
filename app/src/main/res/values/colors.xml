@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Smart Pantry Manager colour palette -->
+    <color name="pantry_background">#EEF6EC</color>
+    <color name="pantry_primary">#234D32</color>
+    <color name="pantry_secondary">#527A5B</color>
+    <color name="pantry_surface">#DCEBDA</color>
+
+    <!-- Standard colours -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
 </resources>

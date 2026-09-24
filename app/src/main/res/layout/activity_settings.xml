@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#F4F8F3">
+    android:background="@color/pantry_background">
 
     <!-- Settings content -->
     <ScrollView
@@ -27,7 +27,7 @@
                 android:text="Settings"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:textColor="#263A29"
+                android:textColor="@color/pantry_primary"
                 android:gravity="center"
                 android:layout_marginBottom="20dp" />
 
@@ -37,7 +37,7 @@
                 android:text="Smart Pantry Manager"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="#263A29"
+                android:textColor="@color/pantry_primary"
                 android:layout_marginBottom="6dp" />
 
             <TextView
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:text="Manage pantry ingredients and discover recipes."
                 android:textSize="14sp"
-                android:textColor="#4F5F52"
+                android:textColor="@color/pantry_secondary"
                 android:layout_marginBottom="18dp" />
 
             <TextView
@@ -54,7 +54,7 @@
                 android:text="Storage"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                android:textColor="#263A29"
+                android:textColor="@color/pantry_primary"
                 android:layout_marginBottom="6dp" />
 
             <TextView
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="Pantry data is stored locally using SQLite."
                 android:textSize="14sp"
-                android:textColor="#4F5F52"
+                android:textColor="@color/pantry_secondary"
                 android:layout_marginBottom="18dp" />
 
             <TextView
@@ -71,7 +71,7 @@
                 android:text="About"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                android:textColor="#263A29"
+                android:textColor="@color/pantry_primary"
                 android:layout_marginBottom="6dp" />
 
             <TextView
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:text="Use your available pantry ingredients to find suitable recipes."
                 android:textSize="14sp"
-                android:textColor="#4F5F52" />
+                android:textColor="@color/pantry_secondary" />
 
         </LinearLayout>
 
@@ -91,7 +91,7 @@
         android:layout_height="70dp"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="#FFFFFF"
+        android:background="@color/white"
         android:elevation="8dp">
 
         <Button
@@ -124,4 +124,6 @@
     </LinearLayout>
 
 </LinearLayout>
+
+
 

@@ -6,6 +6,21 @@
         name="Base.Theme.SmartPantryManager"
         parent="Theme.Material3.DayNight.NoActionBar">
 
+        <!-- Main app colours -->
+        <item name="android:windowBackground">@color/pantry_background</item>
+
+        <!-- Material 3 primary colour -->
+        <item name="colorPrimary">@color/pantry_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Surfaces -->
+        <item name="colorSurface">@color/pantry_surface</item>
+        <item name="colorOnSurface">@color/pantry_primary</item>
+
+        <!-- Secondary colour -->
+        <item name="colorSecondary">@color/pantry_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
     </style>
 
     <style
