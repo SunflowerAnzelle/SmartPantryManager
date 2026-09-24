@@ -52,8 +52,9 @@ public class PantryAdapter extends RecyclerView.Adapter<PantryAdapter.PantryView
 
         PantryItem item = pantryItems.get(position);
 
-        // Display ingredient name
-        holder.tvItemName.setText(item.getName());
+        // Display the ingredient number and name
+        String itemNumber = (position + 1) + ". " + item.getName();
+        holder.tvItemName.setText(itemNumber);
 
         // Display quantity and unit
         holder.tvItemQuantity.setText(
